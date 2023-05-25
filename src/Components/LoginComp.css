@@ -1,0 +1,64 @@
+.back{
+    background-color: #242B2E;
+}
+.login{
+    display: grid;
+    place-items: center;
+}
+.sign{
+    background-color: white;
+    width: 60%;
+    padding: 30px;
+}
+.logHeading h1{
+    font-size: 45px;
+}
+.logHeading p{
+    text-align: center;
+    color: silver;
+    font-size: 20px;
+}
+
+input{
+    cursor: pointer;
+}
+
+.emailSec, .passSec{
+    margin-bottom: 25px;
+}
+
+.emailSec input, .passSec input{
+    width: 400px;
+    border-radius: 5px;
+    background-color:  #eff0f1d6;
+    padding: 10px 0px;
+    border: 1px solid silver;
+    margin-top: 10px;
+}
+.check{
+    font-size: 16px;
+    margin-left: 5px;
+}
+.pass{
+    position: relative;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.checkSec{
+    margin: 25px 0px;
+}
+
+.contBtn{
+    width: 300px;
+    border: 1px solid silver;
+    padding: 10px;
+    background-color: #eff0f1d6;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.contBb{
+    text-align: center;
+}
